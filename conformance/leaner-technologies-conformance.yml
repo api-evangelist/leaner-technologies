@@ -1,0 +1,48 @@
+generated: '2026-07-19'
+method: searched
+source: https://prtimes.jp/main/html/rd/p/000000025.000044088.html
+note: >-
+  Leaner Technologies publishes no OpenAPI, no developer portal and no public API, so no
+  API-level conformance (OAuth2/OIDC/RFC 9457/pagination/idempotency) can be asserted either
+  way. The standards recorded here are the organizational information-security certifications
+  the company actually publishes.
+standards:
+- id: iso-iec-27001
+  name: ISO/IEC 27001:2013 (ISMS)
+  conforms: true
+  certified: true
+  certified_on: '2021-02-08'
+  registration_number: JP21/080659
+  scope: 間接費管理クラウドサービスの開発・提供・運営 (development, provision and operation of
+    indirect-cost management cloud services)
+  evidence: https://prtimes.jp/main/html/rd/p/000000025.000044088.html
+- id: jis-q-27001
+  name: JIS Q 27001:2014
+  conforms: true
+  certified: true
+  certified_on: '2021-02-08'
+  registration_number: JP21/080659
+  evidence: https://prtimes.jp/main/html/rd/p/000000025.000044088.html
+- id: information-security-policy
+  name: Published information security policy (情報セキュリティ方針)
+  conforms: true
+  evidence: https://leaner.co.jp/securitypolicy
+- id: privacy-policy
+  name: Published privacy policy
+  conforms: true
+  evidence: https://leaner.co.jp/privacypolicy
+not_found:
+- id: soc2
+  conforms: false
+  evidence: no SOC 2 report or trust center published
+- id: pci-dss
+  conforms: false
+- id: vulnerability-disclosure
+  conforms: false
+  evidence: >-
+    no security.txt, bug bounty, or responsible-disclosure page found on leaner.co.jp or
+    leaner.jp (2026-07-19). An automated probe hit on /vulnerability-disclosure was verified
+    as a soft-404 false positive — the SPA echoes the requested path into og:url and the Nuxt
+    hydration payload, which is where the keyword match came from.
+references:
+- https://www.lrm.jp/iso27001/voice/leanertechnologies/

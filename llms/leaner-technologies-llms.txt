@@ -1,0 +1,52 @@
+# Leaner Technologies
+
+> 株式会社Leaner Technologies is a Tokyo-based B2B SaaS company (founded 2019-02-22, CEO Yusuke Ohira)
+> building the "Leaner" (リーナー) cloud suite for corporate procurement and purchasing departments —
+> purchase-to-pay, sourcing/quotation, supplier relationship management, plus procurement BPO and
+> consulting. Leaner does NOT publish a public API, developer portal, API reference, or client SDKs.
+
+## Status
+
+- Public API: none found (probed 2026-07-19). No developer portal, no OpenAPI, no API reference,
+  no first-party SDKs on npm/PyPI/RubyGems, no `/.well-known/` discovery documents.
+- Integration is delivered through partner/EC catalog connections (Amazon Business, MonotaRO)
+  and implementation services rather than a self-serve API program.
+- github.com/leaner-co-jp contains only forks and internal tooling — no API specs or client libraries.
+
+## Products
+
+- Leaner購買 (Purchasing) — purchase-to-pay: quotation, approval workflow, ordering, receiving, payment: https://leaner.jp/purchasing
+- Leaner Sourcing — quotation and sourcing workspace: https://leaner.jp/sourcing
+- Leaner Connect — SRM supplier-relationship platform: https://leaner.jp/connect
+- Leaner Consulting — indirect-procurement transformation services: https://leaner.jp/consulting
+
+## Company
+
+- Corporate site: https://leaner.co.jp/
+- Product site: https://leaner.jp/
+- Company profile: https://leaner.co.jp/company
+- Mission: https://leaner.co.jp/mission
+- News: https://leaner.co.jp/news
+- Engineering blog: https://developer.leaner.co.jp/
+- Careers (engineering): https://careers.leaner.co.jp/engineering
+- GitHub: https://github.com/leaner-co-jp
+- Contact: https://leaner.co.jp/contact
+
+## Pricing
+
+- Purchasing pricing: https://leaner.jp/purchasing/price
+- Sourcing pricing: https://leaner.jp/sourcing/price
+
+## Policies and security
+
+- Information security policy: https://leaner.co.jp/securitypolicy
+- Privacy policy: https://leaner.co.jp/privacypolicy
+- Service privacy policy (EN): https://leaner.co.jp/service-privacypolicy-en
+- ISMS certification: ISO/IEC 27001:2013 / JIS Q 27001:2014, registration JP21/080659, 2021-02-08
+
+## API Evangelist artifacts
+
+- APIs.json: https://raw.githubusercontent.com/api-evangelist/leaner-technologies/refs/heads/main/apis.yml
+- Conformance: conformance/leaner-technologies-conformance.yml
+- Domain security: security/leaner-technologies-domain-security.yml
+- Well-known probe results: well-known/leaner-technologies-well-known.yml

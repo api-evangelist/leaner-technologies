@@ -1,0 +1,47 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of /.well-known/* on leaner.co.jp and leaner.jp
+result: none
+caveat: >-
+  leaner.co.jp is a Studio.Design / Nuxt single-page app that returns HTTP 200 with the generic
+  HTML app shell for EVERY unknown path (soft-404). Status codes alone are therefore meaningless
+  on that host; each probe below was content-verified against a known-bogus control path
+  (/zzz-bogus-9999) and treated as a miss when the body matched the generic shell.
+hosts:
+- host: https://leaner.co.jp
+  soft_404: true
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    verified: false
+    result: soft-404 (generic SPA shell, content-type text/html)
+  - path: /.well-known/openid-configuration
+    status: 200
+    verified: false
+    result: soft-404 (generic SPA shell, content-type text/html)
+  - path: /.well-known/api-catalog
+    status: 200
+    verified: false
+    result: soft-404 (generic SPA shell, content-type text/html)
+  - path: /llms.txt
+    status: 200
+    verified: false
+    result: soft-404 (generic SPA shell, content-type text/html)
+  - path: /robots.txt
+    status: 200
+    verified: true
+    result: real (text/plain; allows all, points to /sitemap.xml)
+- host: https://leaner.jp
+  soft_404: false
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /robots.txt
+    status: 200
+    verified: true

@@ -1,0 +1,33 @@
+generated: '2026-07-19'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml hosts
+hosts:
+- host: leaner.co.jp
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct  1 10:19:30 2026 GMT
+  hsts: false
+- host: leaner.jp
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 17 07:35:46 2026 GMT
+  hsts: false
+domains:
+- domain: leaner.co.jp
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none
+- domain: leaner.jp
+  dnssec: false
+  caa: []
+  spf: true
+  spf_record: v=spf1 include:spf.mta.hdems.com include:_spf.google.com ~all
+  dmarc: true
+  dmarc_policy: none
+  dmarc_delegated: hosteddmarc.dmarc-dns.com (PowerDMARC)
+notes:
+- Neither corporate (leaner.co.jp) nor product (leaner.jp) host sets HSTS.
+- No CAA records and no DNSSEC on either registrable domain.
+- DMARC is published on both domains but at p=none (monitor only, not enforcing).
