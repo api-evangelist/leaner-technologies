@@ -1,21 +1,53 @@
 aid: leaner-technologies
 name: Leaner Technologies
-description: 'Leaner Technologies is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: cloud. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Leaner Technologies (株式会社Leaner Technologies) is a Tokyo-based B2B SaaS company
+  founded on February 22, 2019 by CEO Yusuke Ohira, operating under the mission "調達のスタンダードを刷新し続ける"
+  (continuously renew the standard of procurement). It builds the "Leaner" (リーナー) cloud suite for
+  corporate procurement and purchasing departments: Leaner購買 (purchasing), a purchase-to-pay system
+  covering quotation, approval workflow, ordering, receiving and payment; Leaner sourcing, a quotation
+  and sourcing workspace; Leaner Connect, an SRM supplier-relationship platform; plus procurement BPO
+  and consulting services. The platform aggregates supplier and EC catalogs (including Amazon Business
+  and MonotaRO) into cross-catalog search, and applies AI to classify purchasing data for indirect-spend
+  visibility and cost optimization. The company holds ISMS ISO/IEC 27001:2013 / JIS Q 27001:2014
+  certification (registration JP21/080659, February 2021). Leaner publishes no public developer portal,
+  API reference, or client SDKs as of this enrichment pass — its integration surface is delivered
+  through partner catalog connections rather than a self-serve API program.'
 url: https://raw.githubusercontent.com/api-evangelist/leaner-technologies/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://storage.googleapis.com/production-os-assets/assets/c11c0616-012a-49ba-82d9-ec3569159ba3
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-public-api: false
+x-public-api-note: No developer portal, API reference, OpenAPI, or first-party SDK found on
+  leaner.co.jp, leaner.jp, or github.com/leaner-co-jp (probed 2026-07-19).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Cloud
+- Procurement
+- Purchasing
+- Spend Management
+- Sourcing
+- Supplier Relationship Management
+- Enterprise SaaS
+- Japan
+- Indirect Spend
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +57,36 @@ maintainers:
 common:
 - type: Website
   url: https://leaner.co.jp/
+- type: ProductWebsite
+  url: https://leaner.jp/
+- type: Blog
+  url: https://developer.leaner.co.jp/
+- type: News
+  url: https://leaner.co.jp/news
+- type: GitHubOrganization
+  url: https://github.com/leaner-co-jp
+- type: Pricing
+  url: https://leaner.jp/purchasing/price
+- type: PrivacyPolicy
+  url: https://leaner.co.jp/privacypolicy
+- type: SecurityPolicy
+  url: https://leaner.co.jp/securitypolicy
+- type: Compliance
+  url: https://leaner.co.jp/securitypolicy
+- type: Contact
+  url: https://leaner.co.jp/contact
+- type: Careers
+  url: https://careers.leaner.co.jp/engineering
+- type: Conformance
+  url: conformance/leaner-technologies-conformance.yml
+- type: WellKnown
+  url: well-known/leaner-technologies-well-known.yml
+- type: LLMsTxt
+  url: llms/leaner-technologies-llms.txt
+- type: DomainSecurity
+  url: security/leaner-technologies-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
