@@ -34,7 +34,7 @@ x-tier-reason: portfolio-lead
 x-public-api: false
 x-public-api-note: No developer portal, API reference, OpenAPI, or first-party SDK found on
   leaner.co.jp, leaner.jp, or github.com/leaner-co-jp (probed 2026-07-19).
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
