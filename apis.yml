@@ -13,6 +13,17 @@ description: 'Leaner Technologies (株式会社Leaner Technologies) is a Tokyo-b
   API reference, or client SDKs as of this enrichment pass — its integration surface is delivered
   through partner catalog connections rather than a self-serve API program.'
 url: https://raw.githubusercontent.com/api-evangelist/leaner-technologies/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
