@@ -47,7 +47,7 @@ x-public-api-note: No developer portal, API reference, OpenAPI, or first-party S
   leaner.co.jp, leaner.jp, or github.com/leaner-co-jp (probed 2026-07-19).
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Cloud
@@ -77,6 +77,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://leaner.co.jp/blog/
+  type: Blog
 - type: Website
   url: https://leaner.co.jp/
 - type: ProductWebsite
