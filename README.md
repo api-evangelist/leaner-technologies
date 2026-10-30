@@ -64,10 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-株式会社Leaner Technologies is a Tokyo-based B2B SaaS company (founded 2019-02-22, CEO Yusuke Ohira) building the "Leaner" (リーナー) cloud suite for corporate procurement and purchasing departments — Leaner購買 (purchase-to-pay), sourcing/quotation, Leaner Connect (SRM), plus procurement BPO and consulting.
+Leaner Technologies (株式会社Leaner Technologies) is a Tokyo-based B2B SaaS company founded on February 22, 2019 by CEO Yusuke Ohira, operating under the mission "調達のスタンダードを刷新し続ける" (continuously renew the standard of procurement). It builds the "Leaner" (リーナー) cloud suite for corporate procurement and purchasing departments: Leaner購買 (purchasing), a purchase-to-pay system covering quotation, approval workflow, ordering, receiving and payment; Leaner sourcing, a quotation and sourcing workspace; Leaner Connect, an SRM supplier-relationship platform; plus procurement BPO and consulting services. The platform aggregates supplier and EC catalogs (including Amazon Business and MonotaRO) into cross-catalog search, and applies AI to classify purchasing data for indirect-spend visibility and cost optimization. The company holds ISMS ISO/IEC 27001:2013 / JIS Q 27001:2014 certification (registration JP21/080659, February 2021). Leaner publishes no public developer portal, API reference, or client SDKs as of this enrichment pass — its integration surface is delivered through partner catalog connections rather than a self-serve API program.
 
-**No public API.** As of the 2026-07-19 enrichment pass, Leaner publishes no developer portal, API reference, OpenAPI definition, or first-party client SDKs. Its integration surface is delivered through partner/EC catalog connections (Amazon Business, MonotaRO) and implementation services rather than a self-serve API program. The `github.com/leaner-co-jp` org contains only forks and internal tooling.
+**Areas:** Company · Cloud · Procurement · Purchasing · Spend Management · Sourcing · Supplier Relationship Management · Enterprise Saas · Japan · Indirect Spend
 
-Certified to ISMS ISO/IEC 27001:2013 / JIS Q 27001:2014 (registration JP21/080659, 2021-02-08).
+## Leaner Technologies on APIs.io
 
-Backed by: bessemer-venture-partners — https://leaner.co.jp/
+Everything profiled for Leaner Technologies is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/leaner-technologies/](https://apis.io/providers/leaner-technologies/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Leaner Technologies Domain Security](https://apis.io/security/leaner-technologies/leaner-technologies-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://leaner.co.jp/)
+- [Pricing](https://leaner.jp/purchasing/price)
+- [Blog](https://leaner.co.jp/blog/)
+- [Compliance](https://leaner.co.jp/securitypolicy)
+- [Privacy policy](https://leaner.co.jp/privacypolicy)
+- [GitHub](https://github.com/leaner-co-jp)
+
+## API Evangelist rating
+
+**Kin Score 11.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/leaner-technologies/](https://apis.io/providers/leaner-technologies/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Leaner Technologies: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/leaner-technologies/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
